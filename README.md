@@ -1,9 +1,54 @@
 # Getting started with Web Development using WordPress
 
+Setting up you local environment
+
 ### Pre-requisites
 
-* Apache
-* MySQL
-* PHP
+#### 1) XAMP
+Used to have a local development environment
+https://www.apachefriends.org/download.html
 
-### Installation Types
+* Apache (server)
+* MySQL (database)
+* PHP (language)
+
+#### 2) WordPress files
+https://wordpress.org/download/
+* extract to your localhost folder in a subfolder of your name
+
+#### 3) Setup database
+mysql -uroot -p1234 -e "CREATE DATABASE 'db_name';
+mysql -uroot -p1234 -e "CREATE USER db_name@localhost IDENTIFIED BY 1234;"
+mysql -uroot -p1234 -e "GRANT ALL PRIVILEGES ON db_name.* TO 'db_user'@'localhost';"
+mysql -uroot -p1234 -e "FLUSH PRIVILEGES;"
+* Sample is for demo usage only, do not use this for live
+
+### 4) Installation
+run you localhost
+http://localhost/yourname
+
+##### Put in all parameters needed
+- DB creds
+- Site name
+- Email
+- admin username
+- admin pass
+
+### 5) Get a theme
+
+### 6) Plan your pages
+1. Homepage
+2. About pages
+3. Blog pages
+4. Contact me pages
+
+### 7) Setup your menu structure and position
+
+### 8) Install a plugin
+What are plugins
+https://wordpress.org/plugins/jetpack/
+
+### 9) Create a blog post
+
+
+### Deployment to live
