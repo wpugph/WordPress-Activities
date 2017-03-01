@@ -26,6 +26,8 @@ mysql -uroot -p1234 -e "FLUSH PRIVILEGES;"
 ### 4) Installation
 run you localhost
 http://localhost/yourname
+mine
+http://localhost/test/wp1
 
 ##### Put in all parameters needed
 - DB creds
@@ -35,6 +37,12 @@ http://localhost/yourname
 - admin pass
 
 ### 5) Get a theme
+
+Edit theme
+Appearance > customize
+- Theme title & description
+- Add logo
+- Change background image / color
 
 ### 6) Plan your pages
 1. Homepage
@@ -49,6 +57,8 @@ What are plugins
 https://wordpress.org/plugins/jetpack/
 
 ### 9) Create a blog post
+
+### 10) custom widgets
 
 
 ### Deployment to live
