@@ -1,6 +1,6 @@
 # Getting started with Web Development using WordPress
 
-Setting up you local environment
+## Setting up you local environment
 
 ### Pre-requisites
 
@@ -13,7 +13,7 @@ https://www.apachefriends.org/download.html
 * PHP (language)
 
 #### 2) WordPress files
-https://wordpress.org/download/
+https://wordpress.org/download/ (latest 4.7.4)
 * extract to your localhost folder in a subfolder of your name
 
 #### 3) Setup database
@@ -24,7 +24,7 @@ mysql -uroot -p1234 -e "FLUSH PRIVILEGES;"
 * Sample is for demo usage only, do not use this for live
 
 ### 4) Installation
-run you localhost
+run your localhost
 http://localhost/yourname
 mine
 http://localhost/test/wp1
@@ -36,21 +36,26 @@ http://localhost/test/wp1
 - admin username
 - admin pass
 
-### 5) Get a theme
+## Things to do after installing WordPress
+
+### 1) Get a theme
 
 Edit theme
 Appearance > customize
 - Theme title & description
 - Add logo
 - Change background image / color
+- Customize header and footer
 
-### 6) Plan your pages
+### 7) Plan your pages
 1. Homepage
 2. About pages
 3. Blog pages
 4. Contact me pages
 
-### 7) Setup your menu structure and position
+### 8) Setup your menu structure and position
+
+## Extending your self-hosted WordPress
 
 ### 8) Install a plugin
 What are plugins
