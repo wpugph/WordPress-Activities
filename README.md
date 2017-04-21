@@ -18,15 +18,15 @@ https://wordpress.org/download/ (latest 4.7.4)
 
 or 
 
-git clone https://github.com/WordPress/WordPress.git
+* git clone https://github.com/WordPress/WordPress.git
 
 or
 
-bower install wordpress
+* bower install wordpress
 
 or
 
-npm install wordpress
+* npm install wordpress
 
   package.json
     var wordpress = require( "wordpress" );
@@ -39,6 +39,12 @@ npm install wordpress
     client.getPosts(function( error, posts ) {
         console.log( "Found " + posts.length + " posts!" );
     });
+    
+or 
+
+* wp cli > wp install
+
+
 
 #### 3) Setup database
 mysql -uroot -p1234 -e "CREATE DATABASE 'db_name';
