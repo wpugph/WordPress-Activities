@@ -16,6 +16,30 @@ https://www.apachefriends.org/download.html
 https://wordpress.org/download/ (latest 4.7.4)
 * extract to your localhost folder in a subfolder of your name
 
+or 
+
+git clone https://github.com/WordPress/WordPress.git
+
+or
+
+bower install wordpress
+
+or
+
+npm install wordpress
+
+  package.json
+    var wordpress = require( "wordpress" );
+    var client = wordpress.createClient({
+      url: "my-site.com",
+      username: "admin",
+      password: "secret"
+    });
+ 
+    client.getPosts(function( error, posts ) {
+        console.log( "Found " + posts.length + " posts!" );
+    });
+
 #### 3) Setup database
 mysql -uroot -p1234 -e "CREATE DATABASE 'db_name';
 mysql -uroot -p1234 -e "CREATE USER db_name@localhost IDENTIFIED BY 1234;"
@@ -47,23 +71,23 @@ Appearance > customize
 - Change background image / color
 - Customize header and footer
 
-### 7) Plan your pages
+### 2) Plan your pages
 1. Homepage
 2. About pages
 3. Blog pages
 4. Contact me pages
 
-### 8) Setup your menu structure and position
+### 3) Setup your menu structure and position
 
 ## Extending your self-hosted WordPress
 
-### 8) Install a plugin
-What are plugins
+### 1) Install a plugin
+What are plugins?
 https://wordpress.org/plugins/jetpack/
 
-### 9) Create a blog post
+### 2) Create a blog post
 
-### 10) custom widgets
+### 3) custom widgets
 
 
 ### Deployment to live
